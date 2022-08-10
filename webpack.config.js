@@ -19,49 +19,40 @@ const config = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "./index.html",
-      filename: "index.html"
-    }),
-    new HtmlWebpackPlugin({
-      template: "./src/screens/lounch_guide.html",
-      filename: "lounch_guide.html"
+      filename: "index.html",
     }),
     new HtmlWebpackPlugin({
       template: "./src/screens/invite_your_team.html",
-      filename: "invite_your_team.html"
+      filename: "invite_your_team.html",
     }),
     new HtmlWebpackPlugin({
       template: "./src/screens/team_reports.html",
-      filename: "team_reports.html"
+      filename: "team_reports.html",
     }),
     new HtmlWebpackPlugin({
       template: "./src/screens/my_reports.html",
-      filename: "my_reports.html"
+      filename: "my_reports.html",
     }),
     new HtmlWebpackPlugin({
       template: "./src/screens/fill_out_a_report.html",
-      filename: "fill_out_a_report.html"
+      filename: "fill_out_a_report.html",
     }),
     new HtmlWebpackPlugin({
       template: "./src/screens/my_company.html",
-      filename: "my_company.html"
+      filename: "my_company.html",
     }),
     new HtmlWebpackPlugin({
       template: "./src/screens/weekly_report_history.html",
-      filename: "weekly_report_history.html"
+      filename: "weekly_report_history.html",
     }),
     new HtmlWebpackPlugin({
       template: "./src/screens/team_members.html",
-      filename: "team_members.html"
+      filename: "team_members.html",
     }),
     new HtmlWebpackPlugin({
       template: "./src/screens/edit_member_information.html",
-      filename: "edit_member_information.html"
+      filename: "edit_member_information.html",
     }),
-    new HtmlWebpackPlugin({
-      template: "./src/screens/edit_member_dialog.html",
-      filename: "edit_member_dialog.html"
-    }),
-    
   ],
 
   module: {
