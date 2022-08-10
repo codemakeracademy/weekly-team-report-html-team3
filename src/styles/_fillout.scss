@@ -1,0 +1,28 @@
+.title-bg {
+  background-image: url("../img/title-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.title {
+  font-size: $title-size;
+  font-family: $title-font;
+}
+
+.textarea {
+  position: relative;
+}
+
+.textarea-box {
+  resize: none;
+  border: none;
+  height: $textarea-height;
+  padding: $textarea-padding;
+}
+
+.textarea-counter {
+  position: absolute;
+  color: $input-placeholder-color;
+  right: $textarea-padding;
+  bottom: $textarea-padding;
+}

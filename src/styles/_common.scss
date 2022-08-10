@@ -1,0 +1,31 @@
+main {
+    background: $main-bg;
+}
+
+.sidebar {
+    background: $sidebar-bg;
+}
+
+.floating-button {
+    background-color: $feedback-bg;
+    position: fixed !important;
+    right: 0px !important;
+    transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform-origin: bottom right;
+    bottom: 60% !important;
+    z-index: 6;
+    border-radius: 3px;
+}
+
+.help {
+    color: $help-btn;
+    z-index: 7;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 15px;
+}
