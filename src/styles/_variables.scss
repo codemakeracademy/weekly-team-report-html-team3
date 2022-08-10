@@ -31,6 +31,7 @@ $theme-colors: (
     light: $light,
     dark: $dark,
     green-light: #91E1A2,
+    gray-white: $gray-200,
     gray-light: $gray-400,
     gray-dark: $gray-700,
     
@@ -40,8 +41,12 @@ $theme-colors: (
 $input-focus-box-shadow: 0px 0px 4px $warning;
 $input-focus-border-color: $warning;
 $input-border-color: $gray-400;
+$textarea-height: 210px;
+$textarea-padding: 20px;
 
-
+// Text sizes and fonts
+$title-size: 3rem;
+$title-font: francisco-serial;
 
 //// Variables
 //
